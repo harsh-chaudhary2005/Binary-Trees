@@ -12,6 +12,7 @@ public:
         left = right = NULL;
     }
 };
+
 static int idx = -1;
 Node* buildTree(vector<int> preorder){
     idx++;
